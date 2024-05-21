@@ -1,0 +1,139 @@
+*{
+    margin:0 ;
+    padding:0 ;
+}
+
+nav{
+    
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items:center ;
+    padding: 20px;
+    
+    
+}
+
+.logo{
+    width:50px;
+    height:50px;
+
+}
+.menu{
+    font-size: 20px ;
+    display:flex;
+    gap:20px;
+    color:rgb(219, 94, 16);
+    
+    
+}
+.banner_container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.banner_title{
+    font-size: 50px;
+}
+.ban_btn{
+    padding:10px 20px;
+    border-radius:5px;
+    border:None;
+    background-color: brown;
+}
+#back_image{
+    background-image: url("back_img.png");
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.item{
+    margin :10px;
+    padding:7px;
+    font-size:16px;
+    cursor:pointer;
+}
+.under_banner{
+    padding-top: 30px;
+    display:flex;
+    gap:90px;
+    justify-content: center;
+    padding:20px;
+    background-color:rgb(238, 241, 243);
+    margin: 0px 30px 0px 30px ;
+
+}
+.serve_img{
+    display: block;
+    margin: auto;
+}
+.box_shado{
+    box-shadow: 4px 4px 8px gray;
+    width:350 px;
+    height:350px;
+    display: inline;
+    justify-content: center;
+    border:1px solid gray
+}
+.box_center{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    gap:50px;
+    justify-content:center ;
+    
+}
+.serve_logo_img{
+    width:60px;
+    height:60px;
+    display: block;
+    margin: auto;
+
+}
+.wakitioki_man{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.text_style{
+    color: rgb(237, 122, 27);
+
+}
+.para{
+    line-height: 1.5 rem;
+
+}
+.contact_area{
+    display: flex;
+    justify-content: space-around;
+}
+.call{
+    display:flex;
+}
+.footer_area{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    background-color:rgb(8, 5, 5) ;
+    padding:50px ;
+    
+}
+.color{
+    color: rgb(243, 122, 16);
+}
+.list_none{
+    list-style: None;
+}
+.btn_hire{
+    background-color: rgb(23, 156, 239);
+    padding: 10px;
+    margin: 10px; 
+    text-align: center;
+    border-radius:8px ;
+}
+.inpt{
+    background-color: rgb(174, 170, 170);
+    padding: 5px;;
+}
